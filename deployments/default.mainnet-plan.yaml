@@ -1,0 +1,18 @@
+---
+id: 0
+name: Mainnet deployment
+network: mainnet
+stacks-node: "https://stacks-node-api.mainnet.stacks.co"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoin.blockstack.com:8332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: clarity-bitcoin
+            expected-sender: SP1EGAFYVTBAG3E9FSSD93HG09C1KGP6V13P2G63R
+            cost: 30338
+            path: contracts/clarity-bitcoin.clar
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.0"
