@@ -10,7 +10,7 @@ plan:
       transactions:
         - contract-publish:
             contract-name: clarity-bitcoin
-            expected-sender: SP1EGAFYVTBAG3E9FSSD93HG09C1KGP6V13P2G63R
+            expected-sender: SP33BMK8NXK7PE00Y7XBNA3H68YP9R7XG9H1472E0
             cost: 30338
             path: contracts/clarity-bitcoin.clar
             anchor-block-only: true
